@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Travel Dest</h1>
+      <label for="fullname">Full Name</label> <br />
+      <input
+        autocomplete="off"
+        id="fullname"
+        type="text"
+        placeholder="Enter your full name"
+      /><br />
+      <label for="email">Email</label> <br />
+      <input id="email" type="text" placeholder="Enter your email" /><br />
+      <label for="destination">Destination</label>
+      <select name="" id="destination">
+        <option>Select</option>
+        <option value="India">India</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Maldives">Maldives</option>
+        <option value="Philipines">Philipines</option>
+      </select>
+      <br />
+      <label for="price-range">Price Range</label><br />
+      <input
+        step="10000"
+        type="range"
+        min="5000"
+        form="price-range"
+        max="500000"
+      /><br />
+      <label for="flights" id="flight-ticket">Flight ticket</label> <br />
+      <label for="one-way">One Way</label>
+      <input name="flight-type" type="radio" id="one-way" value="one way" />
+      <label for="one-way">Two Way</label>
+      <input name="flight-type" type="radio" value="Two way" /> <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
